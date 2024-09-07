@@ -1,0 +1,88 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:url("gym.png");
+    background-size: 1200px 600px;
+    color:whitesmoke;
+    }
+.left{
+    display: inline-block;
+
+    
+    font-size:15px;
+}
+.mid{
+    display: block;
+    width:60%;
+    top:20px;
+    position:absolute;
+    right:300px;
+ 
+}
+
+.right{
+    position:absolute;
+    top:0px;
+    right:0px;
+    display: inline-block;
+    position:absolute;
+ 
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    font-size:25px;
+}
+.navbar li a:hover, .navbar li .active{
+    text-decoration: underline;
+    color:red;
+}
+.left img{
+    width:70px;
+}
+.btn{
+    margin:0px 9px;
+    color:white;
+    background-color: black;
+    padding:4px 14px;
+    border:2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color:blue;
+}
+.container{
+    border:2px solid white;
+    margin:15px 2px;
+    width:25%;
+    display:block;
+    padding:75px;
+    border-radius:15px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width:345px;
+    padding:6px;
+    border:2px solid black;
+    margin:11px auto;
+    font-size:25px;
+    color:black;
+}
+h1{
+    text-align:center;
+}
+.container button{
+    margin:auto;
+    display: block;
+    width: 90%;
+}
